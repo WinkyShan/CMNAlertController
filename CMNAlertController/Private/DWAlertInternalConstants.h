@@ -195,7 +195,8 @@ static DWAlertAppearanceMode DWAlertAppearanceModeForUIInterfaceStyle(UIUserInte
 }
 
 static UIColor *DWAlertViewNormalTextColor() {
-    return [UIColor systemBlueColor];
+    //MARK 修改DWAlertController 字体颜色
+    return [UIColor colorWithRed:54/255.0 green:185/255.0  blue:200/255.0  alpha:1];
 }
 
 static UIColor *DWAlertViewDisabledTextColor() {
